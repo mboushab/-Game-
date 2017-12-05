@@ -1,0 +1,117 @@
+body {
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: #555;
+}
+
+.container {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: white;
+    width: 1000px;
+    height: 600px;
+    margin-left: 300px;
+}
+
+#player-1 {
+	position:absolute;
+	background-color: #F7F7F7;
+	border-color: blue;
+	margin-left: 0px;
+	height: 600px;
+	width: 500px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#player-2 {
+	position:absolute;
+	margin-top: 0px;
+	height: 600px;
+	width: 500px;
+	border-color: blue;
+	margin-left: 600px;
+	text-align: center;
+}
+
+/*#player-1 {
+	color: #565656;
+}*/
+.curently-1 {
+/*	margin-top: 10px;
+*/	background-color: red;
+	margin-top: 200px;
+	margin-left: 50px;
+	width: 220px;
+}
+.curently-2 {
+	/*margin-top: 400px;*/
+	background-color: red;
+	margin-top: 200px;
+	margin-left: 50px;
+	width: 220px;
+}
+
+.dice-1 {
+	position: absolute;
+	margin-left: 450px;
+	margin-top: 200px;
+	box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+.dice-2 {
+	position: absolute;
+	margin-left: 450px;
+	margin-top: 50px;
+	box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+
+.player-name::after {
+    content: "\2022";
+    font-size: 47px;
+    position: absolute;
+    color: #EB4D4D\;
+    top: -7px;
+    right: 10px;
+    
+}
+i {
+    color: #EB4D4D;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 32px;
+    line-height: 1;
+    vertical-align: text-top;
+    margin-top: -4px;
+    transition: margin 0.3s;
+}
+
+.btn-new { 
+	margin-top: 20px;
+	position: absolute;
+	margin-left: 0px
+	
+}
+.btn-roll { 
+	margin-top: 100px;
+	position: absolute;
+	margin-left: 0px;
+	top: 403px;
+}
+.btn-hold { top: 467px;}
+button:hover { font-weight: 600; }
+button:hover i { margin-right: 20px; }
+
+button:focus {
+    outline: none;
+}
